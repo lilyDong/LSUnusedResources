@@ -711,6 +711,7 @@
                                         <rect key="frame" x="10" y="34" width="99" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="搜索目录" id="qaD-Ju-d9X">
+
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -720,6 +721,7 @@
                                         <rect key="frame" x="560" y="25" width="94" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                         <buttonCell key="cell" type="push" title="选择..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PMh-w7-GaI">
+
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -733,6 +735,7 @@
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="需要忽略的目录，用 ｜ 分割" drawsBackground="YES" id="7I7-in-HwW">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
@@ -743,6 +746,7 @@
                                         <rect key="frame" x="10" y="8" width="100" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="排除的目录" id="Dcq-ar-a4K">
+
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -804,6 +808,7 @@
                                                     <tableColumns>
                                                         <tableColumn identifier="PatternEnable" width="64" minWidth="40" maxWidth="1000" id="Sp0-3W-SU7">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Enable">
+                                                                <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                             </tableHeaderCell>
@@ -815,6 +820,7 @@
                                                         </tableColumn>
                                                         <tableColumn identifier="PatternSuffix" width="80" minWidth="80" maxWidth="128" id="hoU-CB-ZCA">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="File Suffix">
+                                                                <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                             </tableHeaderCell>
@@ -827,6 +833,7 @@
                                                         </tableColumn>
                                                         <tableColumn identifier="PatternRegex" width="400" minWidth="400" maxWidth="3.4028234663852886e+38" id="Vll-fU-aCr">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Regular Expression ">
+                                                                <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </tableHeaderCell>
@@ -839,6 +846,7 @@
                                                         </tableColumn>
                                                         <tableColumn identifier="PatternGroupIndex" width="80" minWidth="80" maxWidth="1024" id="2sb-PK-aLB">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Group Index">
+                                                                <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </tableHeaderCell>
@@ -875,8 +883,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="gdO-HM-LlZ">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <string key="title">忽略相同名字 (例如: tag_1.png, 当以 "tag_%d" 或 "tag" 
-方式使用时，就认为被使用了 )</string>
+                                            <string key="title">忽略相同名字 (例如: tag_1.png, 当以 "tag_%d" 或 "tag" 方式使用时，就认为被使用了 )</string>
                                             <font key="font" metaFont="smallSystem"/>
                                         </buttonCell>
                                         <connections>
@@ -923,6 +930,7 @@
                                             <tableColumns>
                                                 <tableColumn identifier="FileIcon" editable="NO" width="50" minWidth="40" maxWidth="1000" id="n3D-b3-KOY">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Icon">
+                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -931,6 +939,7 @@
                                                 </tableColumn>
                                                 <tableColumn identifier="FileName" editable="NO" width="200" minWidth="200" maxWidth="1000" id="60s-SD-XRC">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name (Click to Copy)">
+                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -943,6 +952,7 @@
                                                 </tableColumn>
                                                 <tableColumn identifier="FileSize" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="trL-iQ-pxU">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Size (KB)">
+                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -955,6 +965,8 @@
                                                 </tableColumn>
                                                 <tableColumn identifier="FilePath" editable="NO" width="1000" minWidth="40" maxWidth="1000" id="iry-Wq-tlB">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Full Path (Double Click to Open)">
+                                                        <font key="font" metaFont="smallSystem"/>
+
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -1014,6 +1026,7 @@
                                 <rect key="frame" x="470" y="3" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <buttonCell key="cell" type="push" title="导出" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5fB-jV-2zZ">
+
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
